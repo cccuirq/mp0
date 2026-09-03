@@ -1,1 +1,38 @@
 /* Your CSS here. */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: #c1ddff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    margin: 20px auto;
+}
+.bottons{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.content{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
